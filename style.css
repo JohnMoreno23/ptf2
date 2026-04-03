@@ -296,6 +296,19 @@ footer {
     border-radius: 20px;
 }
 
+.voltar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary-color);
+    color: var(--claro);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
 @media screen and (max-width: 768px) {
     .menu {
         /* flex-direction: column; */
